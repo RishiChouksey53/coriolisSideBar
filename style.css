@@ -66,8 +66,9 @@ body {
   font-weight: bold;
   color: #999999;
 }
-.side_bar .menu ul details:hover {
+.side_bar .menu ul details summary:hover {
   color: black;
+  transform: scale(1.1);
 }
 .side_bar .menu ul details a {
   width: 350px;
