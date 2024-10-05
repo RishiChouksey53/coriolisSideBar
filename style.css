@@ -13,6 +13,7 @@ body {
   float: inline-end;
   width: 350px;
   height: 100vh;
+  overflow: hidden;
 }
 #check {
   display: none;
@@ -27,6 +28,7 @@ body {
 .main_box .side_bar {
   position: absolute;
   right: -350px;
+  display: none;
   width: 350px;
   box-shadow: 0 0 15px #999999;
   transition: 0.1s;
@@ -34,7 +36,8 @@ body {
   background-color: white;
 }
 #check:checked ~ .side_bar {
-  right: 0px;
+  right:0px;
+  display: block;
 }
 #check:checked ~ .btn_one {
   opacity: 0;
